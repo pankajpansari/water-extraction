@@ -15,7 +15,7 @@ Two-stage pipeline that extracts water quality measurements from academic PDFs i
 1. Install dependencies:
    `pip install anthropic`
 1. Run the pipeline on a PDF:
-   `python extract.py data/sample/vaid_2022.pdf`
+   `python src/extract.py data/sample/vaid_2022.pdf`
 
 ## Outputs
 - JSON outputs are written to `data/outputs/`:
@@ -33,7 +33,7 @@ The schema lives in `schema.sql` and stores a denormalized measurement record pe
 - Censored data handling (limit qualifier, detection limit)
 
 ## Project Structure
-- `extract.py` main pipeline script
+- `src/extract.py` main pipeline script
 - `prompts/` Stage 1 and Stage 2 prompts
 - `schema.sql` SQLite schema
 - `data/sample/` sample PDF and example outputs
