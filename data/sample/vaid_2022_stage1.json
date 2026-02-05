@@ -1,0 +1,517 @@
+{
+  "paper_overview": {
+    "citation": "Vaid, M., Sarma, K., Kala, P., & Gupta, A. (2022). The plight of Najafgarh drain in NCT of Delhi, India: assessment of the sources, statistical water quality evaluation, and fate of water pollutants. Environmental Science and Pollution Research, 29, 90580\u201390600.",
+    "is_review_paper": false,
+    "study_region": "Najafgarh drain and its tributary secondary drains in NCT Delhi, India, including confluence with Yamuna River at Wazirabad",
+    "data_sources": [
+      {
+        "location": "Table 1",
+        "description": "Status of wastewater treatment plants (STPs and CETPs) in Najafgarh drain basin",
+        "page": "2"
+      },
+      {
+        "location": "Table 2",
+        "description": "Description of secondary drains with locations, discharge volumes, and land use characteristics",
+        "page": "3"
+      },
+      {
+        "location": "Table 3",
+        "description": "Comparison of Najafgarh drain water quality at entry point (N1/Dhansa) and exit point (N15/Wazirabad) for 25 parameters across both seasons",
+        "page": "7"
+      },
+      {
+        "location": "Table 4",
+        "description": "Range of physicochemical and microbiological water quality parameters in secondary drains (N=8) for both seasons",
+        "page": "8"
+      },
+      {
+        "location": "Table 5",
+        "description": "Pearson correlation analysis of water quality parameters",
+        "page": "18"
+      },
+      {
+        "location": "Table 6",
+        "description": "Pearson correlation analysis of heavy metals",
+        "page": "18"
+      },
+      {
+        "location": "Table 7",
+        "description": "Principal component analysis results",
+        "page": "19"
+      },
+      {
+        "location": "Figures 3-10",
+        "description": "Graphical representation of water quality changes at upstream/downstream locations for each secondary drain and Yamuna River",
+        "page": "10-17"
+      },
+      {
+        "location": "Supplementary Tables S1 and S2",
+        "description": "Heavy metal concentration ranges (referenced but not shown in main text)",
+        "page": null
+      }
+    ]
+  },
+  "sites": [
+    {
+      "id": "N1",
+      "description": "Entry point of Najafgarh drain in Delhi at Dhansa",
+      "latitude": null,
+      "longitude": null,
+      "matrix": "wastewater",
+      "sample_type": "grab",
+      "source_quote": "Entry point of Najafgarh drain in Delhi (N1)",
+      "source_location": "Table 3, Figure 1"
+    },
+    {
+      "id": "N2",
+      "description": "Najafgarh drain upstream to Badshahpur & Basai drain (S1)",
+      "latitude": null,
+      "longitude": null,
+      "matrix": "wastewater",
+      "sample_type": "grab",
+      "source_quote": "sampling points were purposely located at approximately 500 m upstream and downstream locations to each selected secondary drain",
+      "source_location": "Section 2.2, Figure 1"
+    },
+    {
+      "id": "N3",
+      "description": "Najafgarh drain downstream to Badshahpur & Basai drain (S1)",
+      "latitude": null,
+      "longitude": null,
+      "matrix": "wastewater",
+      "sample_type": "grab",
+      "source_quote": "sampling points were purposely located at approximately 500 m upstream and downstream locations to each selected secondary drain",
+      "source_location": "Section 2.2, Figure 1"
+    },
+    {
+      "id": "N4",
+      "description": "Najafgarh drain upstream to Goyla dairy outlet (S2) and Palam drain (S3)",
+      "latitude": null,
+      "longitude": null,
+      "matrix": "wastewater",
+      "sample_type": "grab",
+      "source_quote": "Changes in water quality of Najafgarh drain (N4 and N5) after receiving wastewater discharges from Goyla dairy outlet (S2) and Palam drain (S3)",
+      "source_location": "Figure 4, Figure 1"
+    },
+    {
+      "id": "N5",
+      "description": "Najafgarh drain downstream to Goyla dairy outlet (S2) and Palam drain (S3)",
+      "latitude": null,
+      "longitude": null,
+      "matrix": "wastewater",
+      "sample_type": "grab",
+      "source_quote": "Changes in water quality of Najafgarh drain (N4 and N5) after receiving wastewater discharges from Goyla dairy outlet (S2) and Palam drain (S3)",
+      "source_location": "Figure 4, Figure 1"
+    },
+    {
+      "id": "N6",
+      "description": "Najafgarh drain upstream to Mungeshpur drain (S4)",
+      "latitude": null,
+      "longitude": null,
+      "matrix": "wastewater",
+      "sample_type": "grab",
+      "source_quote": "Changes in water quality of Najafgarh drain (N6 and N7) after receiving wastewater discharges from Mungeshpur drain (S4)",
+      "source_location": "Figure 5, Figure 1"
+    },
+    {
+      "id": "N7",
+      "description": "Najafgarh drain downstream to Mungeshpur drain (S4)",
+      "latitude": null,
+      "longitude": null,
+      "matrix": "wastewater",
+      "sample_type": "grab",
+      "source_quote": "Changes in water quality of Najafgarh drain (N6 and N7) after receiving wastewater discharges from Mungeshpur drain (S4)",
+      "source_location": "Figure 5, Figure 1"
+    },
+    {
+      "id": "N8",
+      "description": "Najafgarh drain upstream to Keshopur STP outlet (S5)",
+      "latitude": null,
+      "longitude": null,
+      "matrix": "wastewater",
+      "sample_type": "grab",
+      "source_quote": "Changes in water quality of Najafgarh drain (N8 and N9) after receiving wastewater discharges from Keshopur STP outlet (S5)",
+      "source_location": "Figure 6, Figure 1"
+    },
+    {
+      "id": "N9",
+      "description": "Najafgarh drain downstream to Keshopur STP outlet (S5)",
+      "latitude": null,
+      "longitude": null,
+      "matrix": "wastewater",
+      "sample_type": "grab",
+      "source_quote": "Changes in water quality of Najafgarh drain (N8 and N9) after receiving wastewater discharges from Keshopur STP outlet (S5)",
+      "source_location": "Figure 6, Figure 1"
+    },
+    {
+      "id": "N10",
+      "description": "Najafgarh drain upstream to Basaidarapur drain (S6)",
+      "latitude": null,
+      "longitude": null,
+      "matrix": "wastewater",
+      "sample_type": "grab",
+      "source_quote": "Changes in water quality of Najafgarh drain (N10 and N11) after receiving wastewater discharges from Basaidarapur drain (S6)",
+      "source_location": "Figure 7, Figure 1"
+    },
+    {
+      "id": "N11",
+      "description": "Najafgarh drain downstream to Basaidarapur drain (S6)",
+      "latitude": null,
+      "longitude": null,
+      "matrix": "wastewater",
+      "sample_type": "grab",
+      "source_quote": "Changes in water quality of Najafgarh drain (N10 and N11) after receiving wastewater discharges from Basaidarapur drain (S6)",
+      "source_location": "Figure 7, Figure 1"
+    },
+    {
+      "id": "N12",
+      "description": "Najafgarh drain upstream to Kanhaiya Nagar drain (S7)",
+      "latitude": null,
+      "longitude": null,
+      "matrix": "wastewater",
+      "sample_type": "grab",
+      "source_quote": "Changes in water quality of Najafgarh drain (N12 and N13) after receiving wastewater discharges from Kanhaiya Nagar drain (S7)",
+      "source_location": "Figure 8, Figure 1"
+    },
+    {
+      "id": "N13",
+      "description": "Najafgarh drain downstream to Kanhaiya Nagar drain (S7)",
+      "latitude": null,
+      "longitude": null,
+      "matrix": "wastewater",
+      "sample_type": "grab",
+      "source_quote": "Changes in water quality of Najafgarh drain (N12 and N13) after receiving wastewater discharges from Kanhaiya Nagar drain (S7)",
+      "source_location": "Figure 8, Figure 1"
+    },
+    {
+      "id": "N14",
+      "description": "Najafgarh drain upstream to Supplementary drain (S8)",
+      "latitude": null,
+      "longitude": null,
+      "matrix": "wastewater",
+      "sample_type": "grab",
+      "source_quote": "Changes in water quality of Najafgarh drain (N14 and N15) after receiving wastewater discharges from Supplementary drain (S8)",
+      "source_location": "Figure 9, Figure 1"
+    },
+    {
+      "id": "N15",
+      "description": "Final outfall point of Najafgarh drain entering Yamuna River at Wazirabad",
+      "latitude": null,
+      "longitude": null,
+      "matrix": "wastewater",
+      "sample_type": "grab",
+      "source_quote": "Final outfall of Najafgarh drain entering in Yamuna River (N15)",
+      "source_location": "Table 3, Figure 1"
+    },
+    {
+      "id": "S1",
+      "description": "Badshahpur & Basai drain - first major secondary drain discharging effluents from agricultural, industrial, and residential areas",
+      "latitude": 28.4932,
+      "longitude": 76.9474,
+      "matrix": "wastewater",
+      "sample_type": "grab",
+      "source_quote": "Badshahpur & Basai drain 28\u00b0 29\u2032 35.69\u2033 N 76\u00b056\u2032 50.80\u2033 E 161.45* First major drain. These two drains mix before discharging effluents majorly from agricultural, industrial, and residential areas",
+      "source_location": "Table 2"
+    },
+    {
+      "id": "S2",
+      "description": "Goyla dairy outlet - underground outlet discharging effluents from Goyla dairy",
+      "latitude": 28.5771,
+      "longitude": 77.0362,
+      "matrix": "wastewater",
+      "sample_type": "grab",
+      "source_quote": "Goyla dairy outlet 28\u00b0 34\u2032 37.46\u2033 N 77\u00b0 2\u2032 10.46\u2033 E 1.80 Underground outlet discharging effluents from Goyla dairy",
+      "source_location": "Table 2"
+    },
+    {
+      "id": "S3",
+      "description": "Palam drain - discharging effluents majorly from residential areas",
+      "latitude": 28.5795,
+      "longitude": 77.0388,
+      "matrix": "wastewater",
+      "sample_type": "grab",
+      "source_quote": "Palam drain 28\u00b0 34\u2032 46.10\u2033 N 77\u00b0 2\u2032 19.56\u2033 E 78.97 Discharging effluents majorly from residential areas",
+      "source_location": "Table 2"
+    },
+    {
+      "id": "S4",
+      "description": "Mungeshpur drain - discharging effluents majorly from agricultural and residential areas",
+      "latitude": 28.6263,
+      "longitude": 77.0211,
+      "matrix": "wastewater",
+      "sample_type": "grab",
+      "source_quote": "Mungeshpur drain 28\u00b0 37\u2032 34.78\u2033 N 77\u00b0 1\u2032 16.07\u2033 E 1.52 Discharging effluents majorly from agricultural and residential areas",
+      "source_location": "Table 2"
+    },
+    {
+      "id": "S5",
+      "description": "Keshopur STP outlet - discharging effluents from Keshopur sewage treatment plant",
+      "latitude": 28.6539,
+      "longitude": 77.0784,
+      "matrix": "wastewater",
+      "sample_type": "grab",
+      "source_quote": "Keshopur STP outlet 28\u00b0 39\u2032 14.20\u2033 N 77\u00b0 4\u2032 42.13\u2033 E 34.16 Discharging effluents from Keshopur sewage treatment plant",
+      "source_location": "Table 2"
+    },
+    {
+      "id": "S6",
+      "description": "Basaidarapur drain - underground outlet discharging effluents majorly from industrial and residential areas",
+      "latitude": 28.6585,
+      "longitude": 77.1248,
+      "matrix": "wastewater",
+      "sample_type": "grab",
+      "source_quote": "Basaidarapur drain 28\u00b0 39\u2032 30.45\u2033 N 77\u00b0 7\u2032 29.17\u2033 E 7.05 Underground outlet discharging effluents majorly from industrial and residential areas",
+      "source_location": "Table 2"
+    },
+    {
+      "id": "S7",
+      "description": "Kanhaiya Nagar drain - Western Yamuna Canal discharging Yamuna River water contaminated from residential and industrial areas",
+      "latitude": 28.6763,
+      "longitude": 77.168,
+      "matrix": "wastewater",
+      "sample_type": "grab",
+      "source_quote": "Kanhaiya Nagar drain 28\u00b0 40\u2032 34.78\u2033 N 77\u00b0 10\u2032 4.98\u2033 E 1.41 Western Yamuna Canal discharging Yamuna River water contaminated due to discharges majorly from residential and industrial areas",
+      "source_location": "Table 2"
+    },
+    {
+      "id": "S8",
+      "description": "Supplementary drain - discharging effluents majorly from residential and industrial areas",
+      "latitude": 28.7118,
+      "longitude": 77.2273,
+      "matrix": "wastewater",
+      "sample_type": "grab",
+      "source_quote": "Supplementary drain 28\u00b0 42\u2032 42.53\u2033 N 77\u00b0 13\u2032 38.34\u2033 E 519.85 Discharging effluents majorly from residential and industrial areas",
+      "source_location": "Table 2"
+    },
+    {
+      "id": "Y1",
+      "description": "Yamuna River upstream to Najafgarh drain outfall",
+      "latitude": null,
+      "longitude": null,
+      "matrix": "surface water",
+      "sample_type": "grab",
+      "source_quote": "two points in the Yamuna River (Y1\u2013Y2)... upstream and downstream locations to the Najafgarh drain outfall",
+      "source_location": "Section 2.2, Figure 1"
+    },
+    {
+      "id": "Y2",
+      "description": "Yamuna River downstream to Najafgarh drain outfall",
+      "latitude": null,
+      "longitude": null,
+      "matrix": "surface water",
+      "sample_type": "grab",
+      "source_quote": "two points in the Yamuna River (Y1\u2013Y2)... upstream and downstream locations to the Najafgarh drain outfall",
+      "source_location": "Section 2.2, Figure 1"
+    }
+  ],
+  "parameters": [
+    {
+      "id": "P1",
+      "name": "Temperature",
+      "name_as_reported": "TEMP",
+      "cas_number": null,
+      "category": "physical",
+      "unit_as_reported": "\u00b0C"
+    },
+    {
+      "id": "P2",
+      "name": "pH",
+      "name_as_reported": "pH",
+      "cas_number": null,
+      "category": "physical",
+      "unit_as_reported": "unitless"
+    },
+    {
+      "id": "P3",
+      "name": "Turbidity",
+      "name_as_reported": "TURB",
+      "cas_number": null,
+      "category": "physical",
+      "unit_as_reported": "NTU"
+    },
+    {
+      "id": "P4",
+      "name": "Electrical Conductivity",
+      "name_as_reported": "EC",
+      "cas_number": null,
+      "category": "physical",
+      "unit_as_reported": "\u00b5S/cm"
+    },
+    {
+      "id": "P5",
+      "name": "Salinity",
+      "name_as_reported": "SAL",
+      "cas_number": null,
+      "category": "physical",
+      "unit_as_reported": "mg/L"
+    },
+    {
+      "id": "P6",
+      "name": "Total Dissolved Solids",
+      "name_as_reported": "TDS",
+      "cas_number": null,
+      "category": "physical",
+      "unit_as_reported": "mg/L"
+    },
+    {
+      "id": "P7",
+      "name": "Total Suspended Solids",
+      "name_as_reported": "TSS",
+      "cas_number": null,
+      "category": "physical",
+      "unit_as_reported": "mg/L"
+    },
+    {
+      "id": "P8",
+      "name": "Dissolved Oxygen",
+      "name_as_reported": "DO",
+      "cas_number": null,
+      "category": "physical",
+      "unit_as_reported": "mg/L"
+    },
+    {
+      "id": "P9",
+      "name": "Biochemical Oxygen Demand",
+      "name_as_reported": "BOD",
+      "cas_number": null,
+      "category": "physical",
+      "unit_as_reported": "mg/L"
+    },
+    {
+      "id": "P10",
+      "name": "Chemical Oxygen Demand",
+      "name_as_reported": "COD",
+      "cas_number": null,
+      "category": "physical",
+      "unit_as_reported": "mg/L"
+    },
+    {
+      "id": "P11",
+      "name": "Nitrate-Nitrogen",
+      "name_as_reported": "NN",
+      "cas_number": null,
+      "category": "nutrient",
+      "unit_as_reported": "mg/L"
+    },
+    {
+      "id": "P12",
+      "name": "Phosphate",
+      "name_as_reported": "PHOS",
+      "cas_number": null,
+      "category": "nutrient",
+      "unit_as_reported": "mg/L"
+    },
+    {
+      "id": "P13",
+      "name": "Total Alkalinity",
+      "name_as_reported": "TA",
+      "cas_number": null,
+      "category": "physical",
+      "unit_as_reported": "mg/L"
+    },
+    {
+      "id": "P14",
+      "name": "Chloride",
+      "name_as_reported": "Cl\u2212",
+      "cas_number": null,
+      "category": "physical",
+      "unit_as_reported": "mg/L"
+    },
+    {
+      "id": "P15",
+      "name": "Sodium",
+      "name_as_reported": "Na",
+      "cas_number": "7440-23-5",
+      "category": "other",
+      "unit_as_reported": "ppm"
+    },
+    {
+      "id": "P16",
+      "name": "Potassium",
+      "name_as_reported": "K",
+      "cas_number": "7440-09-7",
+      "category": "other",
+      "unit_as_reported": "ppm"
+    },
+    {
+      "id": "P17",
+      "name": "Chromium",
+      "name_as_reported": "Cr",
+      "cas_number": "7440-47-3",
+      "category": "heavy_metal",
+      "unit_as_reported": "ppm"
+    },
+    {
+      "id": "P18",
+      "name": "Lead",
+      "name_as_reported": "Pb",
+      "cas_number": "7439-92-1",
+      "category": "heavy_metal",
+      "unit_as_reported": "ppm"
+    },
+    {
+      "id": "P19",
+      "name": "Iron",
+      "name_as_reported": "Fe",
+      "cas_number": "7439-89-6",
+      "category": "heavy_metal",
+      "unit_as_reported": "ppm"
+    },
+    {
+      "id": "P20",
+      "name": "Nickel",
+      "name_as_reported": "Ni",
+      "cas_number": "7440-02-0",
+      "category": "heavy_metal",
+      "unit_as_reported": "ppm"
+    },
+    {
+      "id": "P21",
+      "name": "Manganese",
+      "name_as_reported": "Mn",
+      "cas_number": "7439-96-5",
+      "category": "heavy_metal",
+      "unit_as_reported": "ppm"
+    },
+    {
+      "id": "P22",
+      "name": "Zinc",
+      "name_as_reported": "Zn",
+      "cas_number": "7440-66-6",
+      "category": "heavy_metal",
+      "unit_as_reported": "ppm"
+    },
+    {
+      "id": "P23",
+      "name": "Cadmium",
+      "name_as_reported": "Cd",
+      "cas_number": "7440-43-9",
+      "category": "heavy_metal",
+      "unit_as_reported": "ppm"
+    },
+    {
+      "id": "P24",
+      "name": "Copper",
+      "name_as_reported": "Cu",
+      "cas_number": "7440-50-8",
+      "category": "heavy_metal",
+      "unit_as_reported": "ppm"
+    },
+    {
+      "id": "P25",
+      "name": "Total Coliforms",
+      "name_as_reported": "TC",
+      "cas_number": null,
+      "category": "microbiological",
+      "unit_as_reported": "MPN/100 ml"
+    }
+  ],
+  "temporal_coverage": {
+    "time_periods": [
+      "Pre-monsoon (May 2019)",
+      "Post-monsoon (November 2019)"
+    ],
+    "sampling_dates": "May 2019 and November 2019",
+    "granularity": "seasonal"
+  },
+  "extraction_notes": "1) Table 3 contains full data for sites N1 and N15 only (entry and exit points of Najafgarh drain). 2) Table 4 contains min/max ranges for secondary drains (S1-S8) with site identifiers in parentheses. 3) Figures 3-10 contain graphical data for intermediate Najafgarh drain sites (N2-N14) and Yamuna River sites (Y1-Y2) - these would need to be extracted from bar charts. 4) Coordinates are provided only for secondary drain sites (S1-S8) in Table 2; Najafgarh drain sites (N1-N15) and Yamuna River sites (Y1-Y2) lack coordinates. 5) DO was reported as 'ND' (not detected) for all secondary drain sites and some Najafgarh drain sites. 6) Lead (Pb) was mostly 'ND' across sites. 7) Heavy metal concentration ranges are stated to be in supplementary Tables S1 and S2 which are not included in the main document. 8) The paper uses 3-day BOD at 27\u00b0C (Indian standard) rather than the more common 5-day BOD at 20\u00b0C."
+}

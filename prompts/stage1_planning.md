@@ -19,7 +19,7 @@ Return a JSON object with:
       {
         "location": "e.g., Table 1, Figure 2, Section 3.2",
         "description": "what data this contains",
-        "page": number or null
+        "page": "number (e.g., 5), string for ranges (e.g., \"10-17\"), or null"
       }
     ]
   },
